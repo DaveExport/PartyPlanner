@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Guests]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column FavoriteDrink in table [dbo].[Guests] is currently  NVARCHAR (MAX) NULL but is being changed to  INT
+         NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Guests] (Table)
+     Create
+       [dbo].[Drinks] (Table)
+
+** Supporting actions
+
+The type for column FavoriteDrink in table [dbo].[Guests] is currently  NVARCHAR (MAX) NULL but is being changed to  INT NULL. Data loss could occur.
+
